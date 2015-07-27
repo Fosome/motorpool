@@ -1,0 +1,43 @@
+.button {
+  background: $lime-wash;
+  color: $white;
+  padding: 12px 22px;
+  border-radius: 22px;
+}
+
+.content {
+  flex-grow: 1;
+  background: $grey-wash;
+  color: $lime-wash;
+  padding: 60px 50px;
+}
+
+.content-heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading-title {
+  flex-grow: 1;
+  font-size: 32px;
+}
+
+.routes {
+}
+
+.route {
+  font-size: 18px;
+  padding: 0 40px;
+
+  :hover {
+    background: $grey-wash-hover;
+  }
+
+  a {
+    display: block;
+    color: $lime-wash;
+    padding: 20px 0;
+    width: 100%;
+    border-bottom: 1px solid $light-grey;
+  }
+}
