@@ -1,14 +1,7 @@
-.button {
-  background: $lime-wash;
-  color: $white;
-  padding: 12px 22px;
-  border-radius: 22px;
-}
-
 .content {
-  flex-grow: 1;
   background: $grey-wash;
   color: $lime-wash;
+  flex-grow: 1;
   padding: 60px 50px;
 }
 
@@ -29,7 +22,7 @@
   font-size: 18px;
   padding: 0 40px;
 
-  :hover {
+  &:hover {
     background: $grey-wash-hover;
   }
 
@@ -39,5 +32,113 @@
     padding: 20px 0;
     width: 100%;
     border-bottom: 1px solid $light-grey;
+  }
+}
+
+.route-form {
+  background: $white;
+  padding: 32px;
+}
+
+.route-form-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.route-form-title {
+  flex-grow: 1;
+  font-size: 20px;
+  padding-top: 16px;
+}
+
+.route-form-actions {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+
+  a {
+    display: block;
+  }
+}
+
+.route-form-action {
+  padding-left: 8px;
+}
+
+.route-form-fields {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  fieldset {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 6px 26px 6px 0;
+  }
+
+  .field-row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .field-column {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+  }
+
+  .field-column-right {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+
+  .label-primary {
+    color: $lime-wash;
+    flex-grow: 1;
+    font-size: 20px;
+    font-variant: normal;
+    font-weight: normal;
+  }
+
+  .time-picker {
+    color: $black;
+    background: $grey-wash;
+    border: 1px solid $grey-wash-hover;
+    border-radius: 0;
+    font-size: 18px;
+  }
+
+  label {
+    color: $black;
+    font-variant: small-caps;
+    font-weight: bold;
+    padding: 6px 0;
+  }
+
+  input {
+    border: 1px solid $grey-wash-hover;
+    background: $grey-wash;
+    color: $black;
+    font-size: 18px;
+    padding: 8px;
+    transition: background 0.2s ease-in-out;
+
+    &:focus {
+      background: $white;
+      border: 1px solid $lime-wash;
+      outline: none;
+    }
+  }
+
+
+  select[multiple=true] {
+    border: 1px solid $grey-wash-hover;
+    background: $grey-wash;
+    color: $black;
+    padding: 8px;
+    width: 100%;
   }
 }

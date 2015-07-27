@@ -3,8 +3,8 @@ a {
 }
 
 body {
-  width: 100%;
   height: 100%;
+  width: 100%;
 }
 
 fieldset {
@@ -16,15 +16,15 @@ fieldset {
 html {
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
     height: 100%;
+    line-height: 1.4;
 }
 
 hr {
-    display: block;
-    height: 1px;
     border: 0;
     border-top: 1px solid #ccc;
+    display: block;
+    height: 1px;
     margin: 32px 0;
     padding: 0;
 }
@@ -58,8 +58,8 @@ video {
 }
 
 .browserupgrade {
-    margin: 0.2em 0;
     background: #ccc;
     color: #000;
+    margin: 0.2em 0;
     padding: 0.2em 0;
 }

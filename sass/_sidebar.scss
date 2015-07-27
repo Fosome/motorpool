@@ -15,8 +15,8 @@
   }
 
   a {
-    display: block;
     color: $white;
+    display: block;
     padding: 16px 12px 16px 36px; 
     width: 100%;
   }
@@ -30,12 +30,12 @@
 }
 
 .new-event {
-  display: block;
   background: $lime-wash;
   color: $white;
+  display: block;
+  height: 100%;
   padding: 22px 32px;
   width: 100%;
-  height: 100%;
 }
 
 .search-form {
@@ -44,11 +44,11 @@
 
   input {
     background: $navy;
-    color: $white;
     border: 1px solid $light-navy;
     border-radius: 20px;
-    padding: 12px 18px;
+    color: $white;
     outline: none;
+    padding: 12px 18px;
     transition: background 0.2s ease-in-out;
 
     :focus {
@@ -57,24 +57,25 @@
   }
 
   button {
-    position: relative;
-    right: 38px;
     background: url("../img/search-icon.png") no-repeat;
     border: none;
-    width: 17px;
     height: 17px;
+    position: relative;
+    right: 38px;
+    width: 17px;
   }
 }
 
 
 .sidebar {
-  float: left;
-  display: flex;
-  flex-direction: column;
   background: $navy;
   color: $white;
-  width: 300px;
+  display: flex;
+  flex-direction: column;
+  float: left;
   height: 100%;
+  min-width: 300px;
+  width: 300px;
 }
 
 .sidebar-actions {
