@@ -1,0 +1,22 @@
+.btn {
+  border-radius: 22px;
+  padding: 12px 22px;
+}
+
+.btn-small {
+  border-radius: 20px;
+  font-size: 14px;
+  padding: 10px 14px;
+}
+
+.btn-primary {
+  background: $lime-wash;
+  color: $white;
+  border: 1px solid $lime-wash;
+}
+
+.btn-secondary {
+  background: $white;
+  color: $lime-wash;
+  border: 1px solid $lime-wash;
+}
