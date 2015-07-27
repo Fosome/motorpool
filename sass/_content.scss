@@ -1,7 +1,7 @@
 .content {
-  flex-grow: 1;
   background: $grey-wash;
   color: $lime-wash;
+  flex-grow: 1;
   padding: 60px 50px;
 }
 
@@ -71,9 +71,9 @@
   flex-wrap: wrap;
 
   fieldset {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     padding: 6px;
   }
 
@@ -83,38 +83,38 @@
   }
 
   .field-column {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
   }
 
   .field-column-right {
-    flex-grow: 1;
     display: flex;
     flex-direction: column;
+    flex-grow: 1;
     margin-left: 10px;
   }
 
   .label-primary {
+    color: $lime-wash;
     flex-grow: 1;
     font-size: 20px;
     font-variant: normal;
     font-weight: normal;
-    color: $lime-wash;
   }
 
   .time-picker {
+    color: $black;
+    background: $grey-wash;
     border: 1px solid $grey-wash-hover;
     border-radius: 0;
-    background: $grey-wash;
-    color: $black;
     font-size: 18px;
   }
 
   label {
+    color: $black;
     font-variant: small-caps;
     font-weight: bold;
-    color: $black;
     padding: 6px 0;
   }
 
@@ -122,12 +122,11 @@
     border: 1px solid $grey-wash-hover;
     background: $grey-wash;
     color: $black;
-    padding: 8px;
     font-size: 18px;
+    padding: 8px;
     transition: background 0.2s ease-in-out;
   }
 
-  // TODO not working as nested? ^^
   input:focus {
     background: $white;
     border: 1px solid $lime-wash;
@@ -138,7 +137,7 @@
     border: 1px solid $grey-wash-hover;
     background: $grey-wash;
     color: $black;
-    width: 100%;
     padding: 8px;
+    width: 100%;
   }
 }
