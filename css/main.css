@@ -227,7 +227,7 @@ audio, canvas, iframe, img, svg, video {
   font-size: 18px;
   padding: 0 40px; }
 /* line 25, ../sass/_content.scss */
-.route :hover {
+.route:hover {
   background: #e2e8eb; }
 /* line 29, ../sass/_content.scss */
 .route a {
@@ -276,7 +276,7 @@ audio, canvas, iframe, img, svg, video {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding: 6px; }
+  padding: 6px 26px 6px 0; }
 /* line 80, ../sass/_content.scss */
 .route-form-fields .field-row {
   display: flex;
@@ -320,12 +320,12 @@ audio, canvas, iframe, img, svg, video {
   font-size: 18px;
   padding: 8px;
   transition: background 0.2s ease-in-out; }
-/* line 130, ../sass/_content.scss */
+/* line 129, ../sass/_content.scss */
 .route-form-fields input:focus {
   background: #fff;
   border: 1px solid #13c079;
   outline: none; }
-/* line 136, ../sass/_content.scss */
+/* line 137, ../sass/_content.scss */
 .route-form-fields select[multiple=true] {
   border: 1px solid #e2e8eb;
   background: #eef4f8;

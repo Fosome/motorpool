@@ -22,7 +22,7 @@
   font-size: 18px;
   padding: 0 40px;
 
-  :hover {
+  &:hover {
     background: $grey-wash-hover;
   }
 
@@ -74,7 +74,7 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding: 6px;
+    padding: 6px 26px 6px 0;
   }
 
   .field-row {
@@ -125,13 +125,14 @@
     font-size: 18px;
     padding: 8px;
     transition: background 0.2s ease-in-out;
+
+    &:focus {
+      background: $white;
+      border: 1px solid $lime-wash;
+      outline: none;
+    }
   }
 
-  input:focus {
-    background: $white;
-    border: 1px solid $lime-wash;
-    outline: none;
-  }
 
   select[multiple=true] {
     border: 1px solid $grey-wash-hover;
